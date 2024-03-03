@@ -44,7 +44,7 @@ pipeline {
             // Notify on deployment failure
             echo 'Deployment failed!'
             emailext subject: 'Pipeline Status - Failure',
-                      body: 'Your pipeline has failed to deploy. This is for the task',
+                      body: 'Your pipeline has failed to deploy. This is for the task ',
                       to: 'vonnasaivineethrao@gmail.com'
         }
     }
